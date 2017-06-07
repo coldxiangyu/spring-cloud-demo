@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="eureka-ribbon:war">
+    <output-path>$PROJECT_DIR$/eureka-ribbon/target</output-path>
+    <root id="archive" name="eureka-ribbon.war">
+      <element id="artifact" artifact-name="eureka-ribbon:war exploded" />
+    </root>
+  </artifact>
+</component>

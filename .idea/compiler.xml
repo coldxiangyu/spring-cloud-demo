@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="compute-service" />
+        <module name="eureka-feign" />
+        <module name="eureka-ribbon" />
+        <module name="eureka-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="compute-service" target="1.6" />
+      <module name="eureka-feign" target="1.6" />
+      <module name="eureka-ribbon" target="1.6" />
+      <module name="eureka-server" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
